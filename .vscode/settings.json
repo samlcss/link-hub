@@ -1,5 +1,7 @@
 {
   // editor
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
   "editor.wordWrap": "on",
   "editor.fontSize": 18,
   "editor.lineHeight": 30,
@@ -15,7 +17,7 @@
   // workbench
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Omni",
+  "workbench.colorTheme": "Monokai Pro",
 
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -26,10 +28,11 @@
 
   // terminal
   "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "'JetBrains Mono', monospace",
   "terminal.integrated.profiles.windows": {
-  "Git Bash": {
-    "source": "Git Bash"
-  }
-},
-"terminal.integrated.defaultProfile.windows": "Git Bash"
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
